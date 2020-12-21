@@ -1,4 +1,4 @@
-# Covid-19 Chest X-Ray Classification
+# Chest X-Ray Classification
 This project contains 2 parts:
 
 __Part1__ aims to classify X-Ray images into 3 classes:
@@ -70,4 +70,4 @@ The accuracy of the model upon evaluation on the test set was __98%__, below are
 ## Model Deployment
 The deployment of the model was made via the python library `Streamlit`
 
-![plot](./Readme_images/app.png)
+![plot](./Readme_images/app_im.png)
