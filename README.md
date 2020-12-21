@@ -10,6 +10,9 @@ __Part1__ aims to classify X-Ray images into 3 classes:
 __Part2__ consists of creating and deploying the model into a web applicaton
 
 ## The Dataset:
+
+__Dataset Discription__
+
 The dataset used in this project is found [here](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database) .
 
 This dataset is composed of 3 folders:
@@ -19,3 +22,5 @@ This dataset is composed of 3 folders:
 2- Normal : 1341 images
 
 3- Viral Pneumonia 1345 images
+
+__Dataset Overview__
