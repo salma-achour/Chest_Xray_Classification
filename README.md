@@ -1,5 +1,5 @@
 # Covid-19 Chest X-Ray Classification
-This project coantains 2 parts:
+This project contains 2 parts:
 
 __Part1__ aims to classify X-Ray images into 3 classes:
 
@@ -24,3 +24,44 @@ This dataset is composed of 3 folders:
 3- Viral Pneumonia 1345 images
 
 __Dataset Overview__
+
+![plot](./Readme_images/overview1.png)
+
+
+## Data Pre-processing and augmentation
+
+__Organizing the data__
+
+Using the script `Data_preprocessing.py`, the raw data was re-organized like so:
+```
+Data
+│
+└───train
+│   │
+│   └───Covid
+│   └───Normal
+│   └───Viral Pnaumonia
+│   
+└───test
+│   └───Covid
+│   └───Normal
+│   └───Viral Pnaumonia
+```
+
+__Augmenting the data__
+
+After applying several operations like _scaling_, _horizental an vertical flip_, _zoom_, _rotation_, etc. the data generated is like so:
+```
+For the train dataset: Found 2451 images belonging to 3 classes 
+For the validation dataset: Found 611 images belonging to 3 classes.
+For the test dataset: Found 767 images belonging to 3 classes.
+```
+
+## Model Training and Evaluation
+The training was made via transfer learning using the pre-trained model `DenseNet`.
+
+All the caode details are in the `model.ipynb` notebook.
+
+The accuracy of the model upon evaluation on the test set was __98%__, below are the training metrics
+
+## Model Deployment
