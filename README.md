@@ -68,3 +68,6 @@ The accuracy of the model upon evaluation on the test set was __98%__, below are
 
 
 ## Model Deployment
+The deployment of the model was made via the python library `Streamlit`
+
+![plot](./Readme_images/app.png)
