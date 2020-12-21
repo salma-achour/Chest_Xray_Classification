@@ -64,4 +64,7 @@ All the caode details are in the `model.ipynb` notebook.
 
 The accuracy of the model upon evaluation on the test set was __98%__, below are the training metrics
 
+![plot](./Readme_images/evaluation.png)
+
+
 ## Model Deployment
