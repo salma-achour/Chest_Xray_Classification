@@ -10,7 +10,7 @@ normal_path = 'COVID-19 Radiography Database/NORMAL'
 pneumonia_path = 'COVID-19 Radiography Database/Viral Pneumonia'
 
 # Making directories
-"""
+
 os.makedirs('Data_organized/train')
 os.mkdir('Data_organized/test')
 
@@ -23,7 +23,7 @@ os.mkdir('Data_organized/test/normal')
 os.mkdir('Data_organized/train/pneumonia')
 os.mkdir('Data_organized/test/pneumonia')
 
-"""
+
 # The length of each training set for each class
 covid_train_len = int(np.floor(len(os.listdir(covid_path))*0.8))
 covid_len = len(os.listdir(covid_path))
