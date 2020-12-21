@@ -60,7 +60,7 @@ For the test dataset: Found 767 images belonging to 3 classes.
 ## Model Training and Evaluation
 The training was made via transfer learning using the pre-trained model `DenseNet`.
 
-All the caode details are in the `model.ipynb` notebook.
+All the caode details are in the `model.py` notebook and the weights will be saved into a `model.hdf5` file to be used for future predictions.
 
 The accuracy of the model upon evaluation on the test set was __98%__, below are the training metrics
 
